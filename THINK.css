@@ -1,0 +1,265 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.body {
+  background-color:white;
+  margin: 0px;
+}
+#button{
+  background-color: rgb(186, 16, 13);
+  /* margin: 10px 10px 10px 10px; */
+  padding:  10px 20px 10px 20px;
+  border: 5px solid rgb(186, 16, 13);
+  color: white; 
+  font-weight: bold;
+
+}
+#button:hover{
+  color: rgb(186, 16, 13);
+  background-color: white;
+  border: 5px solid rgb(186, 16, 13);
+  
+
+}
+
+#header{
+  text-align: left;
+}
+#header2{
+  margin: 0px 0px 0px 290px;
+  display: inline-block;
+  padding: 15px 10px;
+  color: black;
+  font-size: 80px;
+  font-weight: bold;
+ 
+
+}
+#logo{
+  width: 150px;
+  height: auto;
+}
+.social-icon1{
+  color: black;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 40px;
+  text-align: left;
+  
+  
+}
+.social-icon1:hover{
+  color: blue;
+}
+.num2{
+  margin: 0px 0px 0px 1050px;
+  
+  color:black;
+   font-size: 25px;
+}
+.h1 {
+  list-style-type: none;
+  background-color: lightgray;
+  overflow: auto;
+  font-size: 50px;
+
+}
+#menu-bar{
+  text-align: center;
+  
+  text-decoration: none;
+
+}
+#menu-bar li{
+  display: inline-block;
+  padding: 15px 10px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+
+.flex-container {
+    background-color: darkslategray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+
+  }
+  .flex-container:hover{
+    background-color: darkcyan;
+  }
+
+  .flex-child {
+    background-color: lightgrey;
+     margin: 10px;
+    padding: 10px; 
+    width: 100px;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .flex-child:hover{
+    background-color: black;
+    
+  }
+
+  
+
+  
+
+  
+
+  #footer {
+    background-color: rgb(8, 32, 67);
+    clear: both;
+    text-align: center;
+    color: white;
+  }
+  #footer1{
+   text-align: center;
+  }
+ 
+ 
+  #footer4{
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none; 
+  }
+ 
+
+  .div1 {
+    text-align: center;
+
+    margin: 50px 100px 50px 100px;
+    padding: 50px 50px 50px 50px;
+    background-color:lightgray;
+    height: 500px;
+    
+  }
+  #cont{
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  .div2{
+  
+    width: 30%;
+    text-align: center;
+    float: left;
+  }
+  .dd2{
+text-align: center;
+  }
+  .div3{
+    width: 40%;
+    text-align: center;
+    float: left;
+    padding-top: 25px;
+  }
+  .dd3{
+    text-align: center;
+  }
+  .div4{
+    width: 30%;
+    text-align: center;
+    float: left;
+   padding-top: 6rem;
+  }
+  .dd4{
+    text-align: center;
+  }
+
+ 
+
+  #designer {
+    text-align: center;
+    background-color: whitesmoke;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 400px;
+  }
+
+  .Prayas{
+    background-color: black;
+    color: white;
+  }
+  #border{
+    border-style: inset;
+  }
+  .text-color{
+    color: darkblue;
+  }
+  .col{
+    background-color: lightgray;
+    text-align: center;
+    width: 100%;
+   float: left; 
+  }
+  .col-1{
+    font-weight: bold;
+
+  }
+  #font{
+    font-size: 50px;
+  
+  }
+  
+  .social-icon{
+    color: darkgrey;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 10px;
+   
+    
+  }
+  .social-icon:hover{
+    color: black;
+  }
+  
+  
+  .email{
+    text-decoration: none;
+    color: white;
+  }
+  .num{
+    /* background-color: rgb(4, 54, 72); */
+    color: black;
+    text-align: center;
+    margin: 50px 120px 50px 120px;
+    padding: 50px 50px 30px 50px;
+  }
+  .num1{
+    font-size: 50px;
+    
+  }
+  
+ .num3{
+   margin: 0px 0px 0px 900px;
+   color:white;
+    font-size: 25px;
+ }
+
+  #form{
+    background-color: rgb(88, 3, 3);
+    font-size: 30px;
+    color: darkgrey;
+    margin: 50px 100px 50px 100px;
+    padding: 50px 50px 50px 50px;
+    display: inherit;
+  }
+  #div-footer{
+    text-align: left;
+  }
+  
+  .sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
